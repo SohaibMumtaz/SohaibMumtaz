@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 768px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+p{
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+article + article{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid gray;
+}
